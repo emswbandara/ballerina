@@ -1,4 +1,4 @@
-function testComplexJsonToMap() (map) {
+function testComplexJsonToMap() returns (map) {
     json j = {name:"Supun", 
               age:25,
               gpa:2.81,
