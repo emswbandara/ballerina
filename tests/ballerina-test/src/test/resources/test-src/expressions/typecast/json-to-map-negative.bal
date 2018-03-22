@@ -6,6 +6,6 @@ function testComplexJsonToMap() returns (map) {
               info:null, 
               address:{city:"Colombo", "country":"SriLanka"}, 
               marks:[1,5,7]};
-    map m = (map) j;
+    map m = <map> j;
     return m;
 }
